@@ -19,3 +19,12 @@
 .box7 {background: #C25137;}
 .box8 {background: #98BE9F;}
 .box9 {background: #89888D;}
+
+.wrapper {
+	display: flex;
+}
+
+.box {
+	flex: 1;
+}
+
