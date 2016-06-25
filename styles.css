@@ -1,0 +1,21 @@
+.box {
+	color: black;
+	font-size: 130px;
+	text-align: center;
+	text-shadow: 5px 5px rgba(0,0,0,0.1);
+}
+
+.box p {
+	font-size: 50px;
+}
+
+.box0 {background: #EF1212;}
+.box1 {background: #D83AC7;}
+.box2 {background: #4019D2;}
+.box3 {background: #38BCCC;}
+.box4 {background: #16E564;}
+.box5 {background: #9BCB28;}
+.box6 {background: #DAAC48;}
+.box7 {background: #C25137;}
+.box8 {background: #98BE9F;}
+.box9 {background: #89888D;}
