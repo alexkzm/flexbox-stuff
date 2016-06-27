@@ -25,9 +25,13 @@
 	flex-direction: row-reverse;
 	width: 70%;
 	height: 450px;
-	border: 5px dashed red;
+	border: 5px dashed orange;
 	margin: 0 auto;
 	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-items: baseline;
+	align-content: stretch;
 }
 
 .box {
@@ -38,6 +42,10 @@
 
 .box5 {
 	flex: 2;
+	align-self: flex-end;
+	flex-grow: 1;
+	flex-shrink: 2;
+	flex-basis: 50px;
 }
 
 .box2 {
