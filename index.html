@@ -19,9 +19,23 @@
 			<div class='box box9'>9</div>
 
 			<nav class='navmenu'>
+			<ul>
 				<li><a href='#'>#1</a></li>
+				<li><a href='#'>#2</a></li>
+				<li><a href='#'>#3</a></li>
+				<li><a href='#'>#4</a></li>
+				<li><a href='#'>#5</a></li>
+			</ul>
 			</nav>
 		</main>
+
+		<script>
+		$(() => {
+			$('.toggle').on('click', () => {
+				$('navmenu').toggleClass('open')
+			})
+		})
+		</script>	
 
 		
 	</body>

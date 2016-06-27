@@ -34,6 +34,10 @@
 	align-content: stretch;
 }
 
+.wrapper > * {
+	order: 99;
+}
+
 .box {
 	flex: 1;
 	min-width: 25%;
@@ -52,3 +56,33 @@
 	order: 1;
 }
 
+.navmenu li {
+	flex: 1;
+
+}
+
+.navmenu ul {
+	display: none;
+}
+
+.navmenu ul.open {
+	display: flex;
+}
+
+.toggleNav {
+	display: block;
+}
+
+@media all and (max-width: 1000px) {
+	.navmenu ul {
+		flex-direction: column;
+	}
+
+}
+
+@media all and (max-width: 500px) {
+	.navmenu li 
+		flex-basis: 100%;
+	}
+
+}
